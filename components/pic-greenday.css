@@ -1,0 +1,10 @@
+.pic-greenday-container {
+  display: flex;
+  position: relative;
+}
+.pic-greenday-image {
+  width: 197px;
+  height: 202px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}

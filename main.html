@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio Page</title>
+    <meta property="og:title" content="Portfolio Page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Arial;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div data-role="Header" class="home-navbar-container">
+          <div class="home-navbar">
+            <img
+              alt="image"
+              src="public/logo_r-removebg-preview-200h.png"
+              class="home-logo-r"
+            />
+            <div class="home-nav-container">
+              <a href="#SIKIL" class="home-skill Navbar-Link">SKILL</a>
+              <a href="#EDU" class="home-education Navbar-Link">EDUCATION</a>
+              <a href="#HOBII" class="home-hobby Navbar-Link">HOBBY</a>
+              <a href="#wfa" class="home-where-am-from Navbar-Link">
+                WHERE AM FROM?
+              </a>
+            </div>
+            <div data-role="BurgerMenu" class="home-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="home-icon">
+                <path
+                  d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                ></path>
+              </svg>
+            </div>
+            <div data-role="MobileMenu" class="home-mobile-menu">
+              <div class="home-container1">
+                <span class="Card-Heading home-heading">Logo</span>
+                <div data-role="CloseMobileMenu" class="home-close-menu">
+                  <svg viewBox="0 0 1024 1024" class="home-icon02">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="home-links-container">
+                <span class="home-link Navbar-Link">About</span>
+                <span class="home-link1 Navbar-Link">Experience</span>
+                <span class="home-link2 Navbar-Link">Portofolio</span>
+                <span class="Navbar-Link">Contact</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-section-separator"></div>
+        <div class="home-section-separator1"></div>
+        <div class="home-container2">
+          <div class="home-hero">
+            <div class="home-hero-text-container">
+              <h1 class="home-heading1">
+                <span class="Section-Heading home-text">HOLLA PEEPS!👋🏻</span>
+                <br />
+                <span>I Am Muhamad Rafli Aprianto</span>
+                <br />
+                <span>225150607111002</span>
+                <br />
+              </h1>
+              <span class="home-text06">
+                Hi! Im Rafli u guys can call me fli, pli, As a student at
+                Brawijaya University majoring in Information Technology
+                Education (ITE), I am currently immersed in the study of
+                applying information technology in the context of education.
+                This program likely involves learning about software
+                development, information system management, instructional
+                design, and other topics related to the integration of
+                technology in the learning process. And as a student, I am
+                facing various assignments, projects, and exams related to the
+                courses in the ITE curriculum. Additionally, I am also involved
+                in extracurricular activities or student organizations related
+                to information technology or education. For a student, it is
+                important to maintain a balance between academics,
+                extracurricular activities, and personal life.
+              </span>
+              <div class="home-cta-btn-container"></div>
+            </div>
+            <div class="home-container3">
+              <div
+                class="sayadenganmotor-container sayadenganmotor-root-class-name"
+              >
+                <img
+                  alt="image"
+                  src="public/whatsapp%20image%202023-11-27%20at%2023.09.16_9e2d8a2e-500h.jpg"
+                  class="sayadenganmotor-image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="SIKIL" class="home-skill-page">
+          <div class="home-heading-container">
+            <h2 class="home-text07 Section-Heading">SKILL</h2>
+          </div>
+          <div class="home-cards-container">
+            <div class="home-card">
+              <div class="home-icon-container">
+                <div class="logouiux-container">
+                  <svg viewBox="0 0 1024 1024" class="logouiux-icon">
+                    <path
+                      d="M710 72l242 242-242 240h186v342h-342v-342h156l-240-240v156h-342v-342h342v186zM128 896v-342h342v342h-342z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="home-content-container">
+                <span class="home-heading2">UI/UX</span>
+                <span class="home-text08">80%</span>
+              </div>
+            </div>
+            <div class="home-card1">
+              <div class="home-icon-container1">
+                <div class="logolaptop-container">
+                  <svg viewBox="0 0 1024 1024" class="logolaptop-icon">
+                    <path
+                      d="M512 810q18 0 30-12t12-30-12-30-30-12-30 12-12 30 12 30 30 12zM170 214v468h684v-468h-684zM854 768h170q0 34-26 60t-60 26h-852q-34 0-60-26t-26-60h170q-34 0-59-26t-25-60v-468q0-34 25-60t59-26h684q34 0 59 26t25 60v468q0 34-25 60t-59 26z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="home-content-container1">
+                <span class="home-heading3">JAVA</span>
+                <span class="home-text09">60%</span>
+              </div>
+            </div>
+            <div class="home-card2">
+              <div class="home-icon-container2">
+                <div class="home-container4">
+                  <svg viewBox="0 0 865.7188571428571 1024" class="home-icon04">
+                    <path
+                      d="M207.429 877.714l52-52-134.286-134.286-52 52v61.143h73.143v73.143h61.143zM506.286 347.429c0-7.429-5.143-12.571-12.571-12.571-3.429 0-6.857 1.143-9.714 4l-309.714 309.714c-2.857 2.857-4 6.286-4 9.714 0 7.429 5.143 12.571 12.571 12.571 3.429 0 6.857-1.143 9.714-4l309.714-309.714c2.857-2.857 4-6.286 4-9.714zM475.429 237.714l237.714 237.714-475.429 475.429h-237.714v-237.714zM865.714 292.571c0 19.429-8 38.286-21.143 51.429l-94.857 94.857-237.714-237.714 94.857-94.286c13.143-13.714 32-21.714 51.429-21.714s38.286 8 52 21.714l134.286 133.714c13.143 13.714 21.143 32.571 21.143 52z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="home-content-container2">
+                <span class="home-heading4">DESIGN WEBSITE</span>
+                <span class="home-text10">93%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="EDU" class="home-education-page">
+          <div class="home-max-content-width-container">
+            <div class="home-heading-container1">
+              <h1 class="Section-Heading home-text11">EDUCATION</h1>
+            </div>
+            <div class="home-content-container3">
+              <div class="home-about-1">
+                <div class="home-container5">
+                  <div class="home-container6">
+                    <svg viewBox="0 0 1024 1024" class="home-icon06">
+                      <path
+                        d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
+                      ></path>
+                    </svg>
+                    <span class="home-text12">
+                      <span class="home-text13">BRAWIJAYA UNIVERSITY</span>
+                      <br />
+                      <span class="home-text15">2022 - 2026</span>
+                      <br />
+                      <br />
+                    </span>
+                  </div>
+                  <span class="home-text18">
+                    <span class="home-text19">
+                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                      &nbsp; &nbsp; INFORMATION TECHNOLOGY EDUCATION
+                    </span>
+                    <br />
+                  </span>
+                </div>
+                <div class="home-container7">
+                  <svg viewBox="0 0 1024 1024" class="home-icon08">
+                    <path
+                      d="M170 512q0-140 101-241t241-101 241 101 101 241-101 241-241 101-241-101-101-241z"
+                    ></path>
+                  </svg>
+                  <span class="home-text21">
+                    <span class="home-text22">SMAN 2 TANGERANG SELATAN</span>
+                    <br class="home-text23" />
+                    <span class="home-text24">2019 - 2022</span>
+                    <br />
+                  </span>
+                  <span class="home-text26">
+                    <span class="home-text27">
+                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; SOCIAL SCIENCE
+                    </span>
+                    <br />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-pemisah"></div>
+        <div id="HOBII" class="home-hobby-page">
+          <div class="home-header-container">
+            <h1 class="home-text29">HOBBY</h1>
+            <span class="home-text30">
+              My hobby that I really enjoy is listening to music from various
+              genres such as rock, jazz, blues, pop, pop punk, hip hop, and
+              classical. I find joy in the diversity and broad appreciation of
+              the art of music. relish the energetic variations in rock, the
+              characteristic improvisation in jazz, the profound emotions in
+              blues, the easily digestible elements in pop, the dynamism in pop
+              punk, the strong lyrics in hip hop, and the beauty of classical
+              music that carries a rich musical heritage. Listening to various
+              music genres not only provides entertainment but also broadens my
+              perspective on art and creativity. It's an incredible way for me
+              to express myself and find inspiration in everyday life.
+            </span>
+          </div>
+          <div class="home-pic-container">
+            <div class="picbmth-container">
+              <img
+                alt="image"
+                src="public/logo%20bmth-200h.webp"
+                class="picbmth-image"
+              />
+            </div>
+            <div class="picgreenday-container">
+              <img
+                alt="image"
+                src="public/logo%20green%20day-300h.jpg"
+                class="picgreenday-image"
+              />
+            </div>
+            <div class="picbennygoodman-container">
+              <img
+                alt="image"
+                src="public/benny%20goodman-200w.jpg"
+                class="picbennygoodman-image"
+              />
+            </div>
+            <div class="pic21savage-container">
+              <img
+                alt="image"
+                src="public/21%20savage-200h.png"
+                class="pic21savage-image"
+              />
+            </div>
+            <div class="picsuicideboys-container">
+              <img
+                alt="image"
+                src="public/suicideboys-200h.jpg"
+                class="picsuicideboys-image"
+              />
+            </div>
+          </div>
+          <span class="home-text31">
+            <span class="home-text32">
+              Above are my favorite bands where the first picture is a famous
+              rock band, Bring Me The Horizon, then the second is a legend king
+              of jazz Benny Goodman, then the third is 21 Savage Hip-Hop genre
+              music from America and then the last one is $uicide Boy$ just like
+              21 Savage $uicide Boy$ is from America.
+            </span>
+            <br class="home-text33" />
+            <br />
+            <span class="home-text35">U GUYS CAN VISIT MY SPOTIFY HERE!!</span>
+            <br class="home-text36" />
+            <br />
+          </span>
+          <div class="home-bckgrnd">
+            <a
+              href="https://open.spotify.com/user/3142i4a54mpsqy3vhc7xmer534uy?si=18f9ee70f1124201"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="home-link4"
+            >
+              <img
+                alt="pastedImage"
+                src="public/external/pastedimage-22so-200h.png"
+                class="home-bspotify button"
+              />
+            </a>
+          </div>
+        </div>
+        <div id="WAF" class="home-where-am-from-page">
+          <div class="home-header-container1">
+            <h1 id="WHERE AM FROM?" class="Section-Heading home-text38">
+              WHERE AM FROM?
+            </h1>
+          </div>
+          <div class="home-bsd-city">
+            <div class="home-card3">
+              <div id="wfa" class="home-card-heading">
+                <span class="home-kotak">BSD CITY</span>
+                <div class="picbsdcity-container">
+                  <img
+                    alt="image"
+                    src="public/bsd%20city-400h.jpg"
+                    class="picbsdcity-image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-text-bsd">
+            <span class="home-text39">
+              BSD City, atau Bumi Serpong Damai, merupakan sebuah kawasan
+              perkotaan yang terletak di Tangerang Selatan, Banten, Indonesia.
+              Dikenal sebagai salah satu proyek pengembangan kota modern, BSD
+              City memiliki daya tarik utama dalam berbagai aspek kehidupan,
+              mulai dari hunian hingga bisnis. Terletak tidak terlalu jauh dari
+              Jakarta, BSD City menawarkan aksesibilitas yang baik melalui jalan
+              tol dan transportasi umum. Posisinya yang strategis membuatnya
+              menjadi destinasi populer bagi mereka yang mencari tempat tinggal
+              atau berinvestasi di wilayah tersebut. Kawasan ini mengusung
+              konsep kota modern yang menyediakan berbagai fasilitas dan
+              infrastruktur lengkap. Properti di BSD City mencakup beragam tipe,
+              mulai dari perumahan hingga apartemen, menciptakan pilihan tempat
+              tinggal yang sesuai dengan kebutuhan masyarakat. Sebagai pusat
+              bisnis dan perdagangan yang berkembang, BSD City menarik perhatian
+              banyak perusahaan untuk membuka kantor di sana. Pusat perkantoran
+              yang dilengkapi dengan fasilitas modern menjadi ciri khasnya,
+              memberikan kontribusi pada pertumbuhan ekonomi di wilayah
+              tersebut. Tidak hanya sebagai pusat bisnis, BSD City juga dikenal
+              karena memiliki infrastruktur pendidikan yang berkualitas.
+              Keberadaan sekolah-sekolah internasional, universitas, dan pusat
+              pelatihan membuatnya menjadi tempat yang dihuni oleh keluarga dan
+              profesional muda. Selain itu, BSD City menawarkan berbagai pilihan
+              rekreasi dan hiburan. Pusat perbelanjaan modern, restoran, taman
+              kota, dan fasilitas olahraga memberikan penghuni dan pengunjung
+              opsi untuk bersantai dan beraktivitas. Kawasan ini juga menarik
+              perhatian dengan kepeduliannya terhadap lingkungan. Taman-taman
+              hijau dan area terbuka lainnya menciptakan lingkungan yang sejuk
+              dan mendukung gaya hidup sehat. BSD City bukan hanya menjadi
+              tempat tinggal atau pusat bisnis; ini adalah komunitas yang
+              beragam. Dengan berbagai fasilitas dan kegiatan, BSD City
+              menciptakan lingkungan yang memikat untuk ditinggali dan
+              dijelajahi, terus mengalami pengembangan yang dinamis.
+            </span>
+          </div>
+        </div>
+        <div class="home-section-separator2"></div>
+        <div class="home-section-separator3"></div>
+        <div class="home-section-separator4"></div>
+        <div class="home-subscribe">
+          <div class="inisaya-container">
+            <img
+              alt="image"
+              src="public/whatsapp%20image%202023-11-17%20at%2020.20.01_1eb0beb0-600w.jpg"
+              class="inisaya-image"
+            />
+          </div>
+          <div class="home-container8">
+            <div class="home-heading-container2">
+              <h1 class="home-text40">
+                <span class="Section-Heading home-text41">
+                  HAVE INTERESTED IN ME? JUST LEMME KNOW!
+                </span>
+                <br />
+              </h1>
+              <span class="Section-Text home-text43">
+                I will send you my CV on your email. I will not share your email
+                address or use it for promotional goals :D
+              </span>
+            </div>
+            <input
+              type="text"
+              required="true"
+              placeholder="E-mail"
+              class="home-textinput Section-Text input"
+            />
+            <button class="home-button Anchor button">SEND</button>
+          </div>
+        </div>
+        <div class="home-section-separator5"></div>
+        <div class="home-footer-container">
+          <div class="home-footer">
+            <div class="home-social-links">
+              <a
+                href="https://x.com/shittknot?t=HYw8hjsKIZe-fVdfjV9c-Q&amp;s=09"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link5"
+              >
+                <svg viewBox="0 0 950.8571428571428 1024" class="home-icon10">
+                  <path
+                    d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://instagram.com/rafliaprynt?igshid=NzZlODBkYWE4Ng=="
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link6"
+              >
+                <svg viewBox="0 0 877.7142857142857 1024" class="home-icon12">
+                  <path
+                    d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+            <div class="home-copyright-container">
+              <svg viewBox="0 0 1024 1024" class="home-icon14">
+                <path
+                  d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"
+                ></path>
+              </svg>
+              <span class="home-link7">
+                <span>Muhamad Rafli Aprianto (225150607111002)</span>
+                <span class="Anchor">Copyright,2023</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </body>
+</html>

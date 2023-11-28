@@ -1,0 +1,10 @@
+.ini-saya-container {
+  display: flex;
+  position: relative;
+}
+.ini-saya-image {
+  width: 523px;
+  height: 698px;
+  align-self: stretch;
+  object-fit: cover;
+}

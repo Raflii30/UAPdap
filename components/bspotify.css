@@ -1,0 +1,10 @@
+.bspotify-container {
+  display: flex;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.bspotify-pasted-image {
+  width: 312px;
+  height: 121px;
+  border-width: 0px;
+}

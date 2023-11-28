@@ -1,0 +1,10 @@
+.pic-bsd-city-container {
+  display: flex;
+  position: relative;
+}
+.pic-bsd-city-image {
+  width: 933px;
+  height: 303px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}

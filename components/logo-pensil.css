@@ -1,0 +1,11 @@
+.logo-pensil-container {
+  display: flex;
+  position: relative;
+}
+.logo-pensil-icon {
+  fill: #000000;
+  width: 100px;
+  height: 100px;
+  min-width: 100px;
+  min-height: 100px;
+}

@@ -1,0 +1,8 @@
+.logo-laptop-container {
+  display: flex;
+  position: relative;
+}
+.logo-laptop-icon {
+  width: 134px;
+  height: 120px;
+}

@@ -1,0 +1,9 @@
+.pic-suicide-boys-container {
+  display: flex;
+  position: relative;
+}
+.pic-suicide-boys-image {
+  width: 200px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}

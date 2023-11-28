@@ -1,0 +1,10 @@
+.pic-benny-goodman-container {
+  display: flex;
+  position: relative;
+}
+.pic-benny-goodman-image {
+  width: 184px;
+  height: 198px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}

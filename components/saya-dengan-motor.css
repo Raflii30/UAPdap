@@ -1,0 +1,14 @@
+.saya-dengan-motor-container {
+  display: flex;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.saya-dengan-motor-image {
+  width: 472px;
+  height: 460px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.saya-dengan-motor-root-class-name {
+  align-self: stretch;
+}

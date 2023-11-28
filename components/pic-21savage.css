@@ -1,0 +1,9 @@
+.pic-21savage-container {
+  display: flex;
+  position: relative;
+}
+.pic-21savage-image {
+  width: 200px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}
